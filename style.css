@@ -192,7 +192,7 @@ section{
     }
 }
 .btn-section{
-    width: 47rem;
+    width: 31rem;
     height: 5rem;
     display: flex;
     justify-content: space-between;
@@ -232,8 +232,7 @@ section{
     font-size: 1.5rem;
     cursor: pointer;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     text-decoration: none;
     position: relative;
     overflow: hidden;
@@ -750,6 +749,93 @@ footer i{
     border-radius: 50%;
     font-size: 2.4rem;
 }
+
+.project-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-details h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.project-details .project-img {
+    max-width: 70%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.project-content {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.image-container p {
+    font-size: 24px;
+    color: white; /* Adjust subtitle color */
+    margin-top: 8px;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.project-content {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.project-content-umaknexus {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.project-details .project-img-umaknexus {
+    border-radius: 5px;
+    height: 500px;
+    width: 100%;
+}
+
+.image-container-umaknexus p {
+    font-size: 16px;
+    color: white; /* Adjust subtitle color */
+    margin-top: 8px;
+    text-align: left;
+}
+
+.project-content-remindme {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.project-details .project-img-remindme {
+    border-radius: 5px;
+    height: 655px;
+    width: 100%;
+}
+
+.image-container-remindme p {
+    font-size: 16px;
+    color: white; /* Adjust subtitle color */
+    margin-top: 8px;
+    text-align: left;
+}
+
+
+
+
 /* RESPONSIVE */
 @media(max-width:1200px){
     html{
